@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../css/gamepagestyle.css">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap"
+      rel="stylesheet">
+   <title>Красавчики</title>
+</head>
+
+<body>
+   <script src="../script.js/js.js"></script>
+   <header>
+      <div class="shell">
+         <div class="logo">
+            <h1 class="title">Красавчики</h1>
+         </div>
+         <div class="navigation-block">
+            <nav>
+               <a href="#" class="navigation active">Главная</a>
+               <a href="../html/secondpage.html" class="navigation">Second Link</a>
+               <a href="../html/thirdpage.html" class="navigation">Third Link</a>
+            </nav>
+            <a href="../html/profile.php" class="profiledrop">
+               <img src="../img/face.png" alt="" width="40px" class="profile">
+            </a>
+         </div>
+         <div class="registration">
+            <a href="../html/startPage.php">
+               <button class="buttonlogin">Вход</button>
+            </a>
+            <a href="../html/startPage.php">
+               <button class="buttonregistration">Зарегистрироваться</button>
+            </a>
+         </div>
+      </div>
+   </header>
+   <main>
+      <div class="container">
+         <div class="firstrowcontainer">
+            <div class="firstrow first">
+               <div class="hexagons" id="first">
+                  <div id="text">+10</div>
+               </div>
+               <div class="hexagons">
+                  <div id="text">+10</div>
+               </div>
+               <div class="hexagons">
+                  <div id="text">+20</div>
+               </div>
+               <div class="hexagons">
+                  <div id="text">+20</div>
+               </div>
+               <div class="hexagons">
+                  <div id="text">+10</div>
+               </div>
+               <div class="hexagons">
+                  <div id="text">+10</div>
+               </div>
+            </div>
+         </div>
+         <div class="secondrowcontainer">
+            <div class="secondrow">
+               <div class="hexagons">
+                  <div id="text">+10</div>
+               </div>
+               <div class="hexagons">
+                  <div id="text">+20</div>
+               </div>
+               <div class="hexagons">
+                  <div id="text">+30</div>
+               </div>
+               <div class="hexagons">
+                  <div id="text">+30</div>
+               </div>
+               <div class="hexagons">
+                  <div id="text">+20</div>
+               </div>
+               <div class="hexagons">
+                  <div id="text">+10</div>
+               </div>
+            </div>
+         </div>
+         <div class="firstrowcontainer">
+            <div class="firstrow second">
+               <div class="hexagons">
+                  <div id="text">+10</div>
+               </div>
+               <div class="hexagons">
+                  <div id="text">+20</div>
+               </div>
+               <div class="hexagons">
+                  <div id="text">+30</div>
+               </div>
+               <div class="hexagons">
+                  <div id="text">+30</div>
+               </div>
+               <div class="hexagons">
+                  <div id="text">+20</div>
+               </div>
+               <div class="hexagons">
+                  <div id="text">+10</div>
+               </div>
+            </div>
+         </div>
+         <div class="secondrowcontainer">
+            <div class="secondrow">
+               <div class="hexagons">
+                  <div id="text">+10</div>
+               </div>
+               <div class="hexagons">
+                  <div id="text">+10</div>
+               </div>
+               <div class="hexagons">
+                  <div id="text">+20</div>
+               </div>
+               <div class="hexagons">
+                  <div id="text">+20</div>
+               </div>
+               <div class="hexagons">
+                  <div id="text">+10</div>
+               </div>
+               <div class="hexagons">
+                  <div id="text">+10</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </main>
+   <script src="../script.js/js.js"></script>
+   <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+      const firebaseConfig = {
+         apiKey: "AIzaSyD2RG6vwN2wia_0vlxBmHWEp7XMGAot2ek",
+         authDomain: "gameedu-483d3.firebaseapp.com",
+         projectId: "gameedu-483d3",
+         storageBucket: "gameedu-483d3.appspot.com",
+         messagingSenderId: "937761533472",
+         appId: "1:937761533472:web:96c2540b423a70c7f0d645"
+      };
+      const app = initializeApp(firebaseConfig);
+   </script>
+</body>
+
+</html>
